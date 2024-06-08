@@ -1,0 +1,26 @@
+antlr4 Hello.g4 -- Criar os ficheiros java
+antlr4-build -- Compilar os ficheiros java previamente criados
+antlr4-test -- Testar o programa
+antlr4-test -tokens --após a conclusão do programa aparecem os tokens utilizados
+antlr4-test -gui -- após a conclusao do programa cria a árvore
+
+echo -e "Hello world\nHello diogo" | antlr4-test -gui -- Igual ao anterior mas utilizando pipes, o -e serve para que o \n seja utilizado como mudança de linha e não como caracter
+cntrl + D para parar de escrever no terminal
+
+antlr4-clean --Apaga todos os ficheiros previamente criados :)
+
+
+//Após ter isto vou criar o programa propriamente dito
+antlr4-visitor Hello Execute String --Hello é o nome da gramatica, Execute é como o programa se vai chamar, String tipo de dados
+antlr4-main -visitor Execute --Cria o main para poder compilar edepois é só compilar
+antlr4-main -i -visitor Execute --Cria o main para poder compilar e depois é só compilar (Iterativa vai fazendo linha a linha)
+antlr4-build 
+
+//Após isto tudo
+java -ea HelloMain
+
+
+//menus de ajuda
+antlr4-visitor -h
+antlr4-main -h 
+

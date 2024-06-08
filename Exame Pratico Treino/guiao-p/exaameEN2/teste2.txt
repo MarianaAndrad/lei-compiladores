@@ -1,0 +1,8 @@
+a:=2;
+
+while a:
+    a:= read;
+    print sum a;
+    print avg a;
+
+endWhile;

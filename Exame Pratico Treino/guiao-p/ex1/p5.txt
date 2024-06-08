@@ -1,0 +1,5 @@
+a : "Miguel Lopes 09"
+
+print firstespace a
+print firstdigito a
+print firstletra a

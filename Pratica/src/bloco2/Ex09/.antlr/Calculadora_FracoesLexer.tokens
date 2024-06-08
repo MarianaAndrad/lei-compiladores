@@ -1,0 +1,16 @@
+T__0=1
+T__1=2
+T__2=3
+T__3=4
+T__4=5
+Num=6
+Var=7
+Frac=8
+WS=9
+COMMENT=10
+MULTILINECOMMENT=11
+'->'=1
+';'=2
+'print'=3
+'+'=4
+'-'=5
